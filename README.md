@@ -1,11 +1,11 @@
 # Lagash - Azure Stream Analytics webcast
 
-Coupling with new technologies and passing down our experience is our goal. 
-Working side-by-side with Microsoft we've worked in IoT solutions for various clients.
+Coupling with new technologies and giving our knowledge to the community are our goals. 
+Working side-by-side with Microsoft we've incurred in IoT solutions for various clients.
 
 One of the most requested feature is Stream Analytics. 
 
-This project encapsulates 2 Projects (one for sending messages RAW to the ASA and one receiving proccesed messages).
+This solution encapsulates 2 Projects (one for sending messages RAW to the ASA and one receiving proccesed messages).
 
 ### Useful Links
 
