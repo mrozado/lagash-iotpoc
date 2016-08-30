@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTPOC.DataGeneration.WebJo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTPOC.Model", "IoTPOC.Model\IoTPOC.Model.csproj", "{35A2724B-C139-4507-AED2-D97CAE81053A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTPOC.DataReceiver.ConsoleApplication", "IoTPOC.DataReceiver.Console\IoTPOC.DataReceiver.ConsoleApplication.csproj", "{3BD95EFA-C2F9-4BAE-8296-B390FA473766}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{35A2724B-C139-4507-AED2-D97CAE81053A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35A2724B-C139-4507-AED2-D97CAE81053A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35A2724B-C139-4507-AED2-D97CAE81053A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD95EFA-C2F9-4BAE-8296-B390FA473766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD95EFA-C2F9-4BAE-8296-B390FA473766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD95EFA-C2F9-4BAE-8296-B390FA473766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD95EFA-C2F9-4BAE-8296-B390FA473766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
