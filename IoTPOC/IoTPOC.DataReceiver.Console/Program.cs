@@ -14,7 +14,6 @@ namespace IoTPOC.DataReceiver.ConsoleApplication
         {
             string eventHubConnectionString = ConfigurationManager.AppSettings["eventHub:ConnectionString"];
             string eventHubName = ConfigurationManager.AppSettings["eventHub:Name"];
-            string eventHubName2 = ConfigurationManager.AppSettings["eventHub:Name2"];
             string storageConnectionString = ConfigurationManager.AppSettings["storageConnectionString"];
 
             string eventProcessorHostName = Guid.NewGuid().ToString();
@@ -28,7 +27,6 @@ namespace IoTPOC.DataReceiver.ConsoleApplication
             Console.WriteLine("Receiving. Press enter key to stop worker.");
             Console.ReadLine();
             eventProcessorHost.UnregisterEventProcessorAsync().Wait();
-            //eventProcessorHost2.UnregisterEventProcessorAsync().Wait();
         }
     }
 }
